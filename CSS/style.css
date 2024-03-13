@@ -123,6 +123,41 @@ a {
     height: 462px;
 }
 
+.img-2 {
+    background-image: url("../img/2b.webp");
+    background-size: cover;
+    width: 320px;
+    height: 462px;
+}
+
+.img-3 {
+    background-image: url("../img/3b.webp");
+    background-size: cover;
+    width: 320px;
+    height: 462px;
+}
+
+.img-4 {
+    background-image: url("../img/4b.webp");
+    background-size: cover;
+    width: 320px;
+    height: 462px;
+}
+
+.img-5 {
+    background-image: url("../img/5b.webp");
+    background-size: cover;
+    width: 320px;
+    height: 462px;
+}
+
+.img-6 {
+    background-image: url("../img/6b.webp");
+    background-size: cover;
+    width: 320px;
+    height: 462px;
+}
+
 .hover-img {
 }
 
