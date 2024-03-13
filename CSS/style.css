@@ -1,0 +1,56 @@
+/*************DEFAULT SETTINGS*****************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+.fixed {
+    position: fixed;
+    width: 100%;
+}
+.lh-100 {
+    line-height: 100%;
+}
+
+.pre-hero {
+    background-color: black;
+    height: 1rem;
+}
+
+.hero {
+    background-color: #ff6900;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container-hero {
+    width: 1200px;
+    margin:0 auto;
+}
+
+.img-hero {
+    width: 33.3%;
+    text-align: center;
+}
+
+.links-container {
+    width: 33.3%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    color: white;
+    width: 33.3%;
+    text-align: end;
+}
