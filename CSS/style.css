@@ -61,6 +61,7 @@ a {
     width: 1200px;
     margin: auto;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 .card {
@@ -97,7 +98,7 @@ a {
     padding: 0.5rem;
     position: absolute;
     top: 70%;
-    left: 15%;
+    left: 20%;
 }
 
 .heart {
@@ -123,9 +124,8 @@ a {
 }
 
 .hover-img {
-    opacity: 1;
 }
 
 .hover-img:hover {
-
+    opacity: 0;
 }
