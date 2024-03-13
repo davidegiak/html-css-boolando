@@ -11,17 +11,17 @@
 }
 
 /* HEADER */
+header {
+    height: 10rem;
+}
+
 .fixed {
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 .lh-100 {
     line-height: 100%;
-}
-
-.pre-hero {
-    background-color: black;
-    height: 1rem;
 }
 
 .hero {
@@ -53,4 +53,79 @@ a {
     color: white;
     width: 33.3%;
     text-align: end;
+}
+
+/* MAIN */
+
+.card-container {
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.card {
+    width: 320px;
+    position: relative;
+}
+
+.marca {
+    color: gray;
+}
+
+.price {
+    color: red;
+}
+
+.raw-price {
+    color: black;
+    text-decoration: line-through;
+}
+
+.discount {
+    padding: 0.5rem;
+    background-color: red;
+    width: 3.1rem;
+    color: white;
+    position: absolute;
+    top: 70%;
+}
+
+.sos {
+    background-color: green;
+    color: white;
+    width: 6.2rem;
+    padding: 0.5rem;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+}
+
+.heart {
+    background-color: white;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    width: 2.2rem;
+    height: 2rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.img-1 {
+    background-image: url("../img/1b.webp");
+    background-size: cover;
+    width: 320px;
+    height: 462px;
+}
+
+.hover-img {
+    opacity: 1;
+}
+
+.hover-img:hover {
+
 }
