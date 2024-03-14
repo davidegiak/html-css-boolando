@@ -19,6 +19,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 9999;
+    box-shadow: 0 5px 10px black;
 }
 .lh-100 {
     line-height: 100%;
@@ -42,6 +43,8 @@ header {
 
 .links-container {
     width: 33.3%;
+    align-items: center;
+    gap: 2rem;
 }
 
 a {
@@ -53,6 +56,11 @@ a {
     color: white;
     width: 33.3%;
     text-align: end;
+    padding: 1rem;
+}
+
+.fa-heart {
+    margin: 0 1rem;
 }
 
 /* MAIN */
@@ -114,6 +122,7 @@ a {
 
 .heart:hover {
     color: red;
+    cursor: pointer;
 }
 
 .img-1 {
@@ -158,11 +167,10 @@ a {
     height: 462px;
 }
 
-.hover-img {
-}
 
 .hover-img:hover {
     opacity: 0;
+    transition: 400ms;
 }
 
 /* FOOTER */
